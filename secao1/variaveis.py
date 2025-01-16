@@ -42,3 +42,14 @@ nome = "Bruno"
 idade = int(20)
 cidade = "São Paulo"
 print(f"O {nome} tem {idade} e mora na cidade de {cidade}") # >> f' string
+
+# Bruno quer se tornar programador python e analista de redes de computadores e telecomunicações
+outro_nome = "Bruno"
+profissao = {
+    'prof1': 'programador',
+    'prof2': 'analista de redes de computadores e telecomunicações'
+}
+
+profissao['prof1'] = 'esteticista'
+
+print(f"{outro_nome} quer ser {profissao['prof1']} e {profissao['prof2']}.")
