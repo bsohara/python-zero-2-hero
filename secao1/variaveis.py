@@ -34,3 +34,11 @@ c = float(5) # >. converte de inteiro para decimal
 print(a + a) # aqui se deu uma concatenação de variáveis do tipo string. resultado: 33
 print(b + b) # soma dos inteiros. resultado: 8
 print(c + c) # soma de decimais. resultado: 10.0
+
+# criar uma frase e imprimir
+# O Bruno tem 28 anos de idade e mora na cidade de São Paulo
+
+nome = "Bruno"
+idade = int(20)
+cidade = "São Paulo"
+print(f"O {nome} tem {idade} e mora na cidade de {cidade}") # >> f' string
