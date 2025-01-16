@@ -37,6 +37,4 @@ def main():
         print(f"Resultado da operação de opção {options} =",chosenOptions(options, num1, num2))
         print("\n")
 
-
-
 main()
