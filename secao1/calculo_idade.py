@@ -6,4 +6,7 @@ ano_nascimento = int(input("Em que ano você nasceu? "))
 ano_atual = momento_atual.year
 idade = ano_atual - ano_nascimento
 
-print(f'A idade atual daquela pessoa: {int(idade)} anos.')
+print(type(ano_nascimento), ' - ', type(ano_atual), ' - ', type(idade))
+
+
+print(f'A sua idade atual: {int(idade)} anos.')
