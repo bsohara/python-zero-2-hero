@@ -1,6 +1,10 @@
 fruit = "Fruta do conde"
 #index   01234567890123
 
+'''
+pegar porções de uma palavra ou texto
+'''
+
 a = int(input("Qual index para 'a'? "))
 b = int(input("Qual index para 'b'? "))
 
