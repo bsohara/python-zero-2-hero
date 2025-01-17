@@ -1,9 +1,9 @@
 '''
 --> ordenação de calculos
 
-1º = ** e sqrt()
-2º - * e /
-3º + e -
+1º = ** e sqrt() (potência e radical)
+2º - * e / (multiplicação e divisão)
+3º + e - (adição e subtração)
 '''
 
 '''
