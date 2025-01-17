@@ -1,3 +1,5 @@
+import math
+
 '''
 --> ordenação de calculos
 
@@ -31,3 +33,6 @@ d = 6
 equacao = a * b + (c + d) # resultado: 85 ==> aqui, o parênteses vem primeiro
 
 print(equacao)
+
+raiz = math.sqrt(0.49)
+print(raiz)
