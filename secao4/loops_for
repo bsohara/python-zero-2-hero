@@ -1,0 +1,7 @@
+numeros = 9
+for numero in range(numeros):
+    print(numero)
+
+# for n in range(início, fim, incremento) => assim como em C, C#, javaScript, e entre outros
+for n in range(1, 6, 1):
+    print(n)
