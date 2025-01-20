@@ -14,6 +14,7 @@ print(frutas)
 frutas.insert(1, 'tomate')
 print(frutas)
 
+
 # desafio09
 frutas2 = ['maçã', 'morango', 'manga', 'uva', 'abacate']
 
@@ -22,3 +23,10 @@ print(frutas2)
 
 del frutas[-1]
 print(frutas2)
+
+
+#desafio10
+frutas = ['Maçã', 'Morango', 'Uva']
+
+for fruta in frutas:
+    print(f'Eu gosto de {fruta}.')
