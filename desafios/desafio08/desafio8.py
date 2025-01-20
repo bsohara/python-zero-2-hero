@@ -20,5 +20,5 @@ frutas2 = ['maçã', 'morango', 'manga', 'uva', 'abacate']
 frutas2.remove('manga')
 print(frutas2)
 
-frutas2.pop()
+del frutas[-1]
 print(frutas2)
