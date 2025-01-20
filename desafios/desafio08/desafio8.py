@@ -6,6 +6,6 @@ print(frutas)
 
 frutas.append('abacaxi') #adicionar no final da lista
 
-
+frutas[0:2] = ['goiaba', 'amora', 'abacate']
 
 print(frutas)
