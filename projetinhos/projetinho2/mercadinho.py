@@ -9,8 +9,9 @@
 
 """
 produtos = []
+quantidade = int(input("Quantos produtos irão haver na sua loja: "))
 
-for i in range(3):
+for i in range(quantidade):
 
 
     produto = {
