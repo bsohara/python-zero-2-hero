@@ -5,7 +5,7 @@ Funções (functions)
     - c. Default ==> valor definido no parâmetro
     - d. Non-default ==> valor não definido no parâmetro
 
-    ==> default e non-default devem estar em uma ordem
+    ==> default e non-default devem estar em uma ordem, ou seja, a variável non-default seguiu após a variável default
 
     No exemplo abaixo, a variável 'nome' terá um nome de um produto. Então deverá ser passado.
     Já na variável 'quantidade', como já foi definida no parâmetro, não será necessário passar na chamada da função
