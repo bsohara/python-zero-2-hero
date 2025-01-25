@@ -8,4 +8,4 @@ var = list('comprar') #built-in ==> inserido no proprio python, sem necessidade 
 print(var)
 
 duas_listas = zip(produtos, valores)
-print(list(duas_listas))
+print(list(duas_listas)) #==> uma tupla em uma lista
