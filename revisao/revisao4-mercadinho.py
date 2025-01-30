@@ -1,22 +1,28 @@
 produtos = []
-opcoes = ['1 - Adicionar produtos', '2 - Visualizar todos os produtos', '3 - Verificar total de produtos', '4 - Remover produto']
+opcoes = ['1 - Adicionar produtos', '2 - Visualizar todos os produtos', '3 - Remover produto']
 
 def visualiza_opcoes():
     for op in opcoes:
         print(op)
 
-def metodos_opcoes(a):
-    match a:
-        case 1:
-            produtos.append(produtos)
+def adiciona_produto(produto):
+    if produto.lower() in produtos:
+        print("Já existe este produto")
+    else:
+        produtos.append(produto)
+        print("Produto adicionado no mercado.")
 
-        case 2:
-            for p in produtos:
-                print(p)
+def mostra_produtos():
+    print(f"Produtos cadastrados: {produtos}")
 
-        case 3:
-            p = len(produtos)
-            print(f"Quantidade de produtos: {p} produtos.")
+def remove_produto(produto):
+    produtos.remove(produto)
+    print("Produto removido no mercado.")
 
-
+print("=== Mercadinho do Pai ===")
 visualiza_opcoes()
+#opcoes = int(input("Digite a opção que deseja: "))
+
+
+
+
