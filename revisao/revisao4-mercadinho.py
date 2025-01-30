@@ -21,23 +21,24 @@ def remove_produto(produto):
 
 confirmar = ''
 
-while (confirmar != 'n' or confirmar != 'N'):
-    print("=== Mercadinho do Pai ===")
-    visualiza_opcoes()
-    opcao = int(input("Digite a opção que deseja: "))
-    match opcao:
-        case 1:
-            produto = input("Digite o produto para adicionar no mercado: ")
-            adiciona_produto(produto)
-        case 2:
-            mostra_produtos()
-        case 3:
-            produto = input("Digite o produto para remover no mercado: ")
-            remove_produto(produto)
-        case _:
-            print("Opção não existe.")
+while True:
+        print("=== Mercadinho do Pai ===")
+        visualiza_opcoes()
+        opcao = int(input("Digite a opção que deseja: "))
+        match opcao:
+            case 1:
+                produto = input("Digite o produto para adicionar no mercado: ")
+                adiciona_produto(produto)
+            case 2:
+                mostra_produtos()
+            case 3:
+                produto = input("Digite o produto para remover no mercado: ")
+                remove_produto(produto)
+            case _:
+                print("Opção não existe.")
 
-    confirmar = input("Continuar? [s/n]")
+
+        confirmar = input("Continuar? [s/n]")
 
 
 
