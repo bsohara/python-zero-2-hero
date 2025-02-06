@@ -22,3 +22,29 @@ print ("Symetric difference: ", num1 ^ num2) # symetric difference => mostra os 
 print ("And: ", num1 & num2) # and => mostra elementos duplicados em duas ou mais listas
 
 print(len(num1)) #len => verifica a quantidade de elementos de uma lista
+
+
+print()
+
+'''
+funções com sets
+'''
+list3 = set([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
+set1 = {1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5}
+set1.add(7)
+
+print(set1)
+
+set1.update({9, 10, 11, 12, 13})
+
+print(set1)
+
+# diferenças entre o .remove() e o .discard()
+    # ao utilizar o .remove(), gera um erro de um elemento inexistente no set
+    # .discard() não gera o erro de elemento inexistente
+
+
+set1.remove(10)
+set1.discard(9)
+
+print(set1)
